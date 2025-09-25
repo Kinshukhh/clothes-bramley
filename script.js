@@ -1,7 +1,7 @@
 async function generate() {
   const prompt = document.getElementById("prompt").value;
   
-  const res = await fetch("https://your-backend.onrender.com/generate", {
+  const res = await fetch("https://clothes-czdl.onrender.com/generate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ prompt }),
